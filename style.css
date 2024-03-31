@@ -264,9 +264,7 @@ header .fa-times{
 
 /* TEACHER SECTION START */
 
-.teacher{
-    background: var(--shadow);
-}
+
 .teacher .card-container{
     display: flex;
     flex-direction: row;
@@ -368,9 +366,7 @@ header .fa-times{
 
 /* REVIEW SECTION START  */
 
-.review{
-    background-color: var(--shadow);
-}
+
 .review .box-container{
     display: flex;
     justify-content: center;
@@ -529,15 +525,7 @@ header .fa-times{
     header .fa-bars{
         display: block;
     }
-    header .navbar{
-        position: fixed;
-        top: -100rem;
-        left: 0;
-        width: 100%;
-        background: var(--white);
-        border-radius: 1rem;
-        opacity: 0;
-    }
+   
 
     header .navbar{
         position: absolute;
@@ -551,9 +539,11 @@ header .fa-times{
         transition: .2s linear;
         box-shadow: 0 .5rem .3rem var(--light-gray);
         border-top: .5rem solid var(--gray);
+        background: var(--white);
     }
     header .navbar  ul{
         display: block;
+         width: 100%;
     }
 
     header input:checked ~ .navbar{
@@ -571,7 +561,8 @@ header .fa-times{
        font-size: 2rem;
        
     }
- 
+   
+
     .home .content p{
        padding: 1.5rem 1rem;  
     }
